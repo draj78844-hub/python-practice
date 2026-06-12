@@ -1,4 +1,1 @@
-print("Hello World")
-print("Github Test")
-
-
+print("mera pahla python code chal gaya")
