@@ -1,0 +1,1 @@
+print("mera pahla python code chal gaya")
