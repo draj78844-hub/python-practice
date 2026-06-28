@@ -1,3 +1,4 @@
+#WAP to find the average of two numbers.
 a = int(input("enter numbera: "))
 b = int(input("enter numberb: "))
 
