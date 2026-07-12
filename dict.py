@@ -6,4 +6,4 @@ marks = {
 
 #print(marks, type(marks))
 
-print(marks["rohit"])
+print(marks["prince"])
