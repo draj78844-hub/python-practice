@@ -1,4 +1,4 @@
-l = ["prince", "deep", "sachin", "ladoo", "pugu"]
+l = ["prince", "deep", "ladoo", "pugu"]
 name = input("enter your name: ")
 
 if(name in l):
