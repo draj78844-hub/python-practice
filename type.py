@@ -1,4 +1,3 @@
-
 #a = 23.56
 #t = type(a)
 #print(t)
