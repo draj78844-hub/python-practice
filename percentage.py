@@ -1,3 +1,4 @@
+#percentage of marks
 marks1 = int(input("Enter marks1: "))
 marks2 = int(input("Enter marks2: "))
 marks3 = int(input("Enter marks3: "))
