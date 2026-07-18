@@ -1,4 +1,4 @@
-seq = range(5000000000000)
+seq = range(50)
 
 for i in seq:
 
