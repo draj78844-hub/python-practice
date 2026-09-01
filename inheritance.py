@@ -38,5 +38,3 @@ def inheritance():
 
 if __name__ == "__main__":
     inheritance()
-
-         

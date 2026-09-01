@@ -6,5 +6,7 @@ class complex:
     def shownumber(self):
         print(self.real,"i +", self.img,"i")
 
-    num1 = complex(4,7)
-    num1.shownumber()   
+num1 = complex(9, 7)
+num1.shownumber()
+
+   
