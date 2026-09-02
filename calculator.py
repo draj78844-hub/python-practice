@@ -74,4 +74,3 @@ def simple_calculator(i):
 
 if __name__ == "__main__":
    simple_calculator(6)
-

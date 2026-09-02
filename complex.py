@@ -8,5 +8,3 @@ class complex:
 
 num1 = complex(9, 7)
 num1.shownumber()
-
-   
