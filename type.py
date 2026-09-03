@@ -5,3 +5,5 @@
 a = "prince"
 t = type(a)
 print(t)     
+
+
