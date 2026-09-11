@@ -1,38 +1,38 @@
-class Student:
-     def __init__(self, name, marks, place):
-          self.name= name
-          self.marks= marks
-          self.place= place
-
-     print("adding new student in database...")
-
-s1= Student("prince", 98, "mumbai")
-print (s1.name, s1.marks, s1.place )
-
-s2= Student("aryan", 76, "bhopal")
-print(s2.name, s2.marks, s2.place)
-
-
-# def welcome(self):
-#     print("Welcome Student", self.name)
-
-
 # class Student:
-#     college_name= "BITS COLLEGE"
+#      def __init__(self, name, marks, place):
+#           self.name= name
+#           self.marks= marks
+#           self.place= place
 
-#     def __init__(self, name, marks):
-#         self.name= name
-#         self.marks= marks
+#      print("adding new student in database...")
 
-#     def welcome(self):
-#         print("welcome student", self.name)
+# s1= Student("prince", 98, "mumbai")
+# print (s1.name, s1.marks, s1.place )
 
-#     def get_marks(self):
-#         return self.marks
+# s2= Student("aryan", 76, "bhopal")
+# print(s2.name, s2.marks, s2.place)
 
-# s1 = Student("prince", 88)
-# s1.welcome()
-# print(s1.get_marks())
+
+def welcome(self):
+    print("Welcome Student", self.name)
+
+
+class Student:
+    college_name= "BITS COLLEGE"
+
+    def __init__(self, name, marks):
+        self.name= name
+        self.marks= marks
+
+    def welcome(self):
+        print("welcome student", self.name)
+
+    def get_marks(self):
+        return self.marks
+
+s1 = Student("prince", 88)
+s1.welcome()
+print(s1.get_marks())
 
 
 #create student class that take name & mark of 3 sbject as argument in constructorthen create a method to print the average
