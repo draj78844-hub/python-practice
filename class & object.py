@@ -13,52 +13,53 @@
 # print(s2.name, s2.marks, s2.place)
 
 
-def welcome(self):
-    print("Welcome Student", self.name)
+# def welcome(self):
+#     print("Welcome Student", self.name)
 
 
-class Student:
-    college_name= "BITS COLLEGE"
+# class Student:
+#     college_name= "BITS COLLEGE"
 
-    def __init__(self, name, marks):
-        self.name= name
-        self.marks= marks
-
-    def welcome(self):
-        print("welcome student", self.name)
-
-    def get_marks(self):
-        return self.marks
-
-s1 = Student("prince", 88)
-s1.welcome()
-print(s1.get_marks())
-
-
-#create student class that take name & mark of 3 sbject as argument in constructorthen create a method to print the average
-
-# class student:
 
 #     def __init__(self, name, marks):
 #         self.name= name
 #         self.marks= marks
 
-#     @staticmethod #decorator
-#     def hello():
-#         print("hello")
+#     def welcome(self):
+#         print("welcome student", self.name)
 
-#     def get_avg(self):
-#         sum= 0 
-#         for value in self.marks:
-#             sum += value
-#         print("hi", self.name, "your score is:", sum/3)
+#     def get_marks(self):
+#         return self.marks
 
-# s1= student("prince", [99,98,97])
-# s1.get_avg()
+# s1 = Student("prince", 88)
+# s1.welcome()
+# print(s1.get_marks())
 
-# s1.name = "just_now"
-# s1.hello()
-# s1.get_avg()    
+
+#create student class that take name & mark of 3 sbject as argument in constructorthen create a method to print the average
+
+class student:
+
+    def __init__(self, name, marks):
+        self.name= name
+        self.marks= marks
+
+    @staticmethod #decorator
+    def hello():
+        print("hello")
+
+    def get_avg(self):
+        sum= 0 
+        for value in self.marks:
+            sum += value
+        print("hi", self.name, "your score is:", sum/3)
+
+s1= student("prince", [99,98,97])
+s1.get_avg()
+
+s1.name = "just_now"
+s1.hello()
+s1.get_avg()    
 
 
 
