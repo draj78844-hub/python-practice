@@ -63,46 +63,46 @@
 
 
 
-class car:
+# class car:
 
-    def __init__(self):
-        self.acc= False
-        self.brk= False
-        self.clutch= False
+#     def __init__(self):
+#         self.acc= False
+#         self.brk= False
+#         self.clutch= False
 
-    def start(self):
-        self.clutch= True
-        self.acc= True
-        print("car started..")
+#     def start(self):
+#         self.clutch= True
+#         self.acc= True
+#         print("car started..")
 
-car1= car()
-car1.start()
+# car1= car()
+# car1.start()
 
 
-# class acc:
+class acc:
 
-#     def __init__(self, bal, acc):
-#         self.balance= bal
-#         self.account_no= acc
+    def __init__(self, bal, acc):
+        self.balance= bal
+        self.account_no= acc
 
-#     def debit(self, amount):
-#         self.balance -= amount
-#         print("Rs.", amount, "was debited")
-#         print("total balance = ", self.get_balance())
+    def debit(self, amount):
+        self.balance -= amount
+        print("Rs.", amount, "was debited")
+        print("total balance = ", self.get_balance())
 
-#     def debit(self, amount):
-#         self.balance += amount
-#         print("Rs.", amount, "was credited")
-#         print("total balance = ", self.get_balance())
+    def debit(self, amount):
+        self.balance += amount
+        print("Rs.", amount, "was credited")
+        print("total balance = ", self.get_balance())
 
-#     def get_balance(self):
-#         return self.balance
+    def get_balance(self):
+        return self.balance
 
-# acc1= acc(20000, 12389)
-# acc1.debit(1000)
+acc1= acc(20000, 12389)
+acc1.debit(1000)
 
-# print(acc1.balance)
-# # print(acc1.account_no)
+print(acc1.balance)
+
 
 
 # sum= 0
