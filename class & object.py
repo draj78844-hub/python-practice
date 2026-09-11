@@ -79,40 +79,40 @@
 # car1.start()
 
 
-class acc:
+# class acc:
 
-    def __init__(self, bal, acc):
-        self.balance= bal
-        self.account_no= acc
+#     def __init__(self, bal, acc):
+#         self.balance= bal
+#         self.account_no= acc
 
-    def debit(self, amount):
-        self.balance -= amount
-        print("Rs.", amount, "was debited")
-        print("total balance = ", self.get_balance())
+#     def debit(self, amount):
+#         self.balance -= amount
+#         print("Rs.", amount, "was debited")
+#         print("total balance = ", self.get_balance())
 
-    def debit(self, amount):
-        self.balance += amount
-        print("Rs.", amount, "was credited")
-        print("total balance = ", self.get_balance())
+#     def debit(self, amount):
+#         self.balance += amount
+#         print("Rs.", amount, "was credited")
+#         print("total balance = ", self.get_balance())
 
-    def get_balance(self):
-        return self.balance
+#     def get_balance(self):
+#         return self.balance
 
-acc1= acc(20000, 12389)
-acc1.debit(1000)
+# acc1= acc(20000, 12389)
+# acc1.debit(1000)
 
-print(acc1.balance)
+# print(acc1.balance)
 
 
 
-# sum= 0
-# while(True):
-#     userInput= input("Enter the item price or press q to quit: \n")
-#     if (userInput != 'q'):
-#         sum= sum + int(userInput)
-#         print(f"order total so far: {sum}")
+sum= 0
+while(True):
+    userInput= input("Enter the item price or press q to quit: \n")
+    if (userInput != 'q'):
+        sum= sum + int(userInput)
+        print(f"order total so far: {sum}")
 
-#     else:
-#         print(f"your bill total is {sum}. Thanks for shopping with us")
-#         break
+    else:
+        print(f"your bill total is {sum}. Thanks for shopping with us")
+        break
 
