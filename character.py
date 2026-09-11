@@ -24,4 +24,4 @@ def character(s):
 
 if __name__ == "__main__":
     character("hello")
-
+    
