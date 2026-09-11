@@ -38,45 +38,45 @@
 
 #create student class that take name & mark of 3 sbject as argument in constructorthen create a method to print the average
 
-class student:
+# class student:
 
-    def __init__(self, name, marks):
-        self.name= name
-        self.marks= marks
+#     def __init__(self, name, marks):
+#         self.name= name
+#         self.marks= marks
 
-    @staticmethod #decorator
-    def hello():
-        print("hello")
+#     @staticmethod #decorator
+#     def hello():
+#         print("hello")
 
-    def get_avg(self):
-        sum= 0 
-        for value in self.marks:
-            sum += value
-        print("hi", self.name, "your score is:", sum/3)
+#     def get_avg(self):
+#         sum= 0 
+#         for value in self.marks:
+#             sum += value
+#         print("hi", self.name, "your score is:", sum/3)
 
-s1= student("prince", [99,98,97])
-s1.get_avg()
+# s1= student("prince", [99,98,97])
+# s1.get_avg()
 
-s1.name = "just_now"
-s1.hello()
-s1.get_avg()    
+# s1.name = "just_now"
+# s1.hello()
+# s1.get_avg()    
 
 
 
-# class car:
+class car:
 
-#     def __init__(self):
-#         self.acc= False
-#         self.brk= False
-#         self.clutch= False
+    def __init__(self):
+        self.acc= False
+        self.brk= False
+        self.clutch= False
 
-#     def start(self):
-#         self.clutch= True
-#         self.acc= True
-#         print("car started..")
+    def start(self):
+        self.clutch= True
+        self.acc= True
+        print("car started..")
 
-# car1= car()
-# car1.start()
+car1= car()
+car1.start()
 
 
 # class acc:
