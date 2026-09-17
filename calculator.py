@@ -243,11 +243,31 @@
 # print(output) #none
 
 
-#Average of 3 number
-def calc_avg(a,b,c):
-    sum = a + b + c
-    avg= sum/3
-    print(avg)
-    return avg
+# #Average of 3 number
+# def calc_avg(a,b,c):
+#     sum = a + b + c
+#     avg= sum/3
+#     print(avg)
+#     return avg
 
-calc_avg(1,2,3)
+# calc_avg(1,2,3)
+
+
+# print("hello", end= "$")  #sep= " "
+# print("prince") #end= "\n"
+
+# def cal_prod(a=4, b=6):
+#     print(a * b)
+#     return a*b
+
+# cal_prod()
+
+#WAP to print the length of a list. (list is the parameter)
+cities= ["kolkata", "mumbai", "haryana","delhi","bhopal"]
+heroes= ["ranveer kapoor", "salman khan", "sharu khan","akshya"]
+
+def print_len(list):
+    print(len(list))
+
+print_len(cities)
+print_len(heroes)
