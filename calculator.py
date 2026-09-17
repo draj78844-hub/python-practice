@@ -127,17 +127,17 @@
 # # print(grade)
 
 #WAP to print dictionary value 
-info= {
-    "name": "prince raj",
-    "subjects" : ["python", "java", "c"],
-    "topic" : ("dict", "set"),
-    "age" : 19
-}
+# info= {
+#     "name": "prince raj",
+#     "subjects" : ["python", "java", "c"],
+#     "topic" : ("dict", "set"),
+#     "age" : 19
+# }
 
-print(info["name"])
-print(info["subjects"])
-print(info["topic"])
-print(info["age"])
+# print(info["name"])
+# print(info["subjects"])
+# print(info["topic"])
+# print(info["age"])
 
 
 # collection= {1,2,2,2,3,"hello","prince","raj",4}
@@ -227,4 +227,27 @@ print(info["age"])
 
 # calc_sum(19, 7)
 
-# calc_sum(56, 9)
+# # calc_sum(56, 9)
+
+# #friction definition:
+# def calc_sum(a, b): #parameters:
+#     return a+b
+
+# sum= calc_sum(1, 2) #function call; arguments
+# print(sum)
+
+# def print_hello():
+#     print("hello")
+
+# output= print_hello()
+# print(output) #none
+
+
+#Average of 3 number
+def calc_avg(a,b,c):
+    sum = a + b + c
+    avg= sum/3
+    print(avg)
+    return avg
+
+calc_avg(1,2,3)
