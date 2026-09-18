@@ -141,11 +141,11 @@
 # print(info["topic"])
 # print(info["age"])
 
-#WAP to print total collection
-collection= {1,2,2,2,3,"hello","prince","raj",4}
-print(collection)
-# print(type(collection))
-print(len(collection)) #total number of items
+# #WAP to print total collection
+# collection= {1,2,2,2,3,"hello","prince","raj",4}
+# print(collection)
+# # print(type(collection))
+# print(len(collection)) #total number of items
 
 # collection= set() 
 # print(type(collection))
@@ -264,12 +264,37 @@ print(len(collection)) #total number of items
 
 # cal_prod()
 
-#WAP to print the length of a list. (list is the parameter)
-cities= ["kolkata", "mumbai", "haryana","delhi","bhopal"]
-heroes= ["ranveer kapoor", "salman khan", "sharu khan","akshya"]
+# #WAP to print the length of a list. (list is the parameter)
+# cities= ["kolkata", "mumbai", "haryana","delhi","bhopal"]
+# heroes= ["ranveer kapoor", "salman khan", "sharu khan","akshya"]
 
-def print_len(list):
-    print(len(list))
+# def print_len(list):
+#     print(len(list))
 
-print_len(cities)
-print_len(heroes)
+# print_len(cities)
+# print_len(heroes)
+
+
+#WAP to binary search
+arr = [1,5,3,4,6,5,4]
+
+target = 8
+
+start = 0
+end = len(arr) - 1
+
+while start <= end:
+
+    mid = (start + end) // 2
+
+    if target > arr[mid]:
+        start = mid + 1
+
+    elif target < arr[mid]:
+        end = mid - 1
+
+    else:
+        print("Element found at index:", mid)
+        break
+else:
+    print("Element not found")
