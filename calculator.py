@@ -34,7 +34,7 @@
 
 
 
-#WAP to simple calculator
+# WAP to simple calculator
 # def simple_calculator(i):
 #     print("""===simple calculator===""")
 
@@ -93,16 +93,16 @@
 
 
 # WAP to store 3 movies in a list
-movies= []
-mov1= input("enter 1st movie: ")
-mov2= input("enter 2nd movie: ")
-mov3= input("enter 3rd movie: ")
+# movies= []
+# mov1= input("enter 1st movie: ")
+# mov2= input("enter 2nd movie: ")
+# mov3= input("enter 3rd movie: ")
 
-movies.append(mov1)
-movies.append(mov2)
-movies.append(mov3)
+# movies.append(mov1)
+# movies.append(mov2)
+# movies.append(mov3)
 
-print(movies)
+# print(movies)
 
 
 
@@ -141,11 +141,11 @@ print(movies)
 # print(info["topic"])
 # print(info["age"])
 
-
-# collection= {1,2,2,2,3,"hello","prince","raj",4}
-# print(collection)
-# # print(type(collection))
-# print(len(collection)) #total number of items
+#WAP to print total collection
+collection= {1,2,2,2,3,"hello","prince","raj",4}
+print(collection)
+# print(type(collection))
+print(len(collection)) #total number of items
 
 # collection= set() 
 # print(type(collection))
