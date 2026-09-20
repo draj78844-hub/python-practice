@@ -276,25 +276,59 @@
 
 
 #WAP to binary search
-arr = [1,5,3,4,6,5,4]
+# arr = [1,5,3,4,6,5,4]
 
-target = 8
+# target =6
 
-start = 0
-end = len(arr) - 1
+# start = 0
+# end = len(arr) - 1
 
-while start <= end:
+# arr.sort
+# print(arr)
 
-    mid = (start + end) // 2
+# while start <= end:
 
-    if target > arr[mid]:
-        start = mid + 1
+#     mid = (start + end) // 2
 
-    elif target < arr[mid]:
-        end = mid - 1
+#     if target > arr[mid]:
+#         start = mid + 1
 
-    else:
-        print("Element found at index:", mid)
-        break
-else:
-    print("Element not found")
+#     elif target < arr[mid]:
+#         end = mid - 1
+
+#     else:
+#         print("Element found at index:", mid)
+#         break
+# else:
+#     print("Element not found")
+
+
+
+# arr = [1, 5, 3, 4, 6, 5, 4]
+
+# arr.sort()
+
+# print(arr)
+
+
+
+#WAP to print Encapsulation Example in Python
+class Student:
+    ...
+class Student:
+    def __init__(self, name, marks):
+        self.name = name
+        self.__marks = marks
+
+    def get_marks(self):
+        return self.__marks
+
+    def set_marks(self, marks):
+        if marks >= 0:
+            self.__marks = marks
+
+
+student = Student("Rahul", 90)
+
+print(student.name)
+print(student.get_marks())
