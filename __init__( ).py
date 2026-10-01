@@ -86,19 +86,18 @@
 
 
 #print the multiplication table of a number n
-# i= 1
-# while i <= 10:
-#     print(4*i)
-#     i+= 1
-
-
-#print the elements of the following using a loop 
-# nums= [87, 54, 34, 78, 32, 98, 43]
-# print(nums[0])
-# print(nums[1])
-# print(nums[2])
-# print(nums[3])
-# print(nums[4])
+i= 1
+while i <= 10:
+    print(4*i)
+    i+= 1
+ 
+# print the elements of the following using a loop 
+nums= [87, 54, 34, 78, 32, 98, 43]
+print(nums[0])
+print(nums[1])
+print(nums[2])
+print(nums[3])  
+print(nums[4])
 
 
 # nums= [67, 45, 23, 56, 34, 87, 67]
@@ -142,12 +141,35 @@
 
 
 #Factorial.......
-def calc_fact(n):
-    fact= 1
-    for i in range(1, n+1):
-        fact *=i
+# def calc_fact(n):
+#     fact= 1
+#     for i in range(1, n+1):
+#         fact *=i
 
-    print(fact)
+#     print(fact)
 
-calc_fact(7)
-    
+# calc_fact(7)
+
+# def converter(usd_val):
+#     inr_val= usd_val * 83
+#     print(usd_val, "USD= ", inr_val, "INR")
+
+# converter(0)
+
+#Recursion.................
+# def show(n):
+#     if(n == 0): 
+#         return
+#     print(n)
+#     show(n-1)
+
+# show(45)
+
+def show(n):
+    if(n == 0):
+        return
+    print(n)
+    show(n-1)
+    print("END")
+
+show(3)

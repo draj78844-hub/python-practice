@@ -62,21 +62,21 @@
 # s1.get_avg()    
 
 
+# ==================== CLASS AND OBJECT ====================
+class car:
 
-# class car:
+    def __init__(self):
+        self.acc= False
+        self.brk= False
+        self.clutch= False
 
-#     def __init__(self):
-#         self.acc= False
-#         self.brk= False
-#         self.clutch= False
+    def start(self):
+        self.clutch= True
+        self.acc= True
+        print("car started..")
 
-#     def start(self):
-#         self.clutch= True
-#         self.acc= True
-#         print("car started..")
-
-# car1= car()
-# car1.start()
+car1= car()
+car1.start()
 
 
 # class acc:
@@ -115,4 +115,3 @@
 #     else:
 #         print(f"your bill total is {sum}. Thanks for shopping with us")
 #         break
-
