@@ -165,11 +165,21 @@ print(nums[4])
 
 # show(45)
 
-def show(n):
-    if(n == 0):
-        return
-    print(n)
-    show(n-1)
-    print("END")
+# def show(n):
+#     if(n == 0):
+#         return
+#     print(n)
+#     show(n-1)
+#     print("END")
 
-show(3)
+# show(3)
+
+
+#write a recursive function to calculate the sum of first n natural numbers.
+def calc_sum(n):
+    if(n == 0):
+        return 0
+    return calc_sum(n-1) + n
+
+sum= calc_sum(10)
+print(sum)
