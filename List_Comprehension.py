@@ -12,14 +12,14 @@
 # print(new_marks)
 
 #normal for loop
-# cubes= [ ]
-# for x in range(10):
-#     if x%2 == 0:
-#       cubes.append(x ** 3)
+cubes= [ ]
+for x in range(10):
+    if x%2 == 0:
+      cubes.append(x ** 3)
 
-# print("using for loop: ", cubes)
+print("using for loop: ", cubes)
 
 
 #List Comprehension cube
-cube= [x ** 3 for x in range (10) if x%2 == 0]
-print("Using List Coprehension: ", cube)
+# cube= [x ** 3 for x in range (10) if x%2 == 0]
+# print("Using List Coprehension: ", cube)
