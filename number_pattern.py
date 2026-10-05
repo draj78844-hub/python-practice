@@ -1,25 +1,26 @@
 
 # #number pattern
-# n = 10
-# for i in range(1, n+1):
-#     for j in range(1, i+1):
-#         print(j,end= " ")
+n = 10
+for i in range(1, n+1):
+    for j in range(1, i+1):
+        print("*",end= " ")
 
-#     print()
+    print()
 
 
 
-def number_pattern(i):
-    try:
-        n=10
-        for i in range(1, n+1):
-            for j in range(1, i+1):
-                print(j,end=" ")
+# def number_pattern(i):
+#     try:
+#         n=10
+#         for i in range(1, n+1):
+#             for j in range(1, i+1):
+#                 print(j,end=" ")
 
-            print()
+#             print()
 
-    except Exception as e:
-        print("Error: ",e)
+#     except Exception as e:
+#         print("Error: ",e)
 
-if __name__ == "__main__":
-    number_pattern(45)
+# if __name__ == "__main__":
+#     number_pattern(45)
+
