@@ -1,9 +1,9 @@
-name= input()
-for x in name:
-    if(x == ' '):
-#       continue
-        break
-    print(x, end= ' ')
+# name= input()
+# for x in name:
+#     if(x == ' '):
+# #       continue
+#         break
+#     print(x, end= ' ')
 
 
 # age= int(input())
@@ -16,9 +16,9 @@ for x in name:
 
 
 
-# list1 = range(8)
-# for x in list1:
-#     if(x == 6):
-# #        continue
-#      break
-#     print(x)
+list1 = range(8)
+for x in list1:
+    if(x == 6):
+#        continue
+     break
+    print(x)
