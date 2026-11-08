@@ -5,7 +5,7 @@
 #      print(f"{n} * {i} = {n * i}")
 
 
-#WAP to multiple sign uses in table.
+#WAP to multiple sign uses in table
 def multiple_signtable(i):
      n= int(input("enter a number: "))
 
