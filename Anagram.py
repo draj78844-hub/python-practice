@@ -1,4 +1,3 @@
-
 # #anagram
 # s1= input()
 # s2= input()
@@ -29,6 +28,3 @@ def anagram():
 
 if __name__ == "__main__":
    anagram()
-
-
-
